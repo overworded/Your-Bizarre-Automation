@@ -189,7 +189,7 @@ PgUp::
 Loop
 {
   ArrowCycle()
-  sleep 11000
+  sleep PingDelay + 11000
   if EquippedShinyCheck()
   {
     Pause, On
@@ -208,7 +208,7 @@ PgDn::
 Loop
 {
   RibCycle()
-  sleep 11000
+  sleep PingDelay + 11000
   if EquippedShinyCheck()
   {
     Pause, On
