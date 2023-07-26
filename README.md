@@ -10,4 +10,5 @@
 3. Make sure your screen resolution is 1920x1080.
 4. Read IMPORTANT.txt.
 5. Launch Main.ahk.
-6. Enjoy your shiny stands!
+6. Update your ping delay depending on your ping in the game, if it is unstable then a private server is recommended.
+7. Enjoy your shiny stands!
