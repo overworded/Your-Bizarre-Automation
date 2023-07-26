@@ -1,4 +1,6 @@
-﻿InventorySearch(ItemName)
+global PingDelay = 0
+
+InventorySearch(ItemName)
 {
   send {``}
   sleep 50
@@ -30,11 +32,11 @@ ClickFoundImage(Image) ; Image variable is the image name!
 GetMaxWorthy()
 {
   send {click 1850 970} ; open menu
-  sleep 650
+  sleep PingDelay + 650
   send {click 950 380} ; open character
-  sleep 500
+  sleep PingDelay + 500
   send {click 1200 390} ; open skill tree
-  sleep 1250 ; wait for skill tree to open
+  sleep PingDelay + 1250
   send {click 1100 100} ; click first skill tree 
   sleep 500
   send {click 1100 100} ; skill tree
@@ -44,7 +46,7 @@ GetMaxWorthy()
   send {click 970 535} ; skill tree
   sleep 50
   send {click 960 1000} ; close skill tree
-  sleep 500
+  sleep PingDelay + 500
   send {click 1860 985} ; close menu
 }
 
@@ -70,21 +72,21 @@ EquippedShinyCheck()
 
 DialogueV1()
 {
-  sleep 100
+  sleep PingDelay + 100
   send {click 730 670}
-  sleep 4000
+  sleep PingDelay + 4000
   send {click 730 670}
 }
 
 DialogueV2()
 {
-  sleep 250
+  sleep PingDelay + 250
   send {click 1250 680}
-  sleep 250
+  sleep PingDelay + 250
   send {click 1250 680}
-  sleep 250
+  sleep PingDelay + 250
   send {click 1250 680}
-  sleep 250
+  sleep PingDelay + 250
   send {click 1250 680}
 }
 
@@ -148,6 +150,17 @@ UseRoka()
   }
 }
 
+Gui, New, +AlwaysOnTop -Caption +ToolWindow
+Gui, Add, Text, x5 y5 w100 h20, Ping delay (ms):
+Gui, Add, Edit, x110 y5 w50 h20 vPingDelay, %PingDelay%
+Gui, Add, Button, x165 y5 w50 h20 , Update
+Gui, Show, x0 y0 w220 h30, Ping delay
+return
+
+ButtonUpdate:
+Gui, Submit, NoHide
+return
+
 Delete::
 UseRoka()
 return
@@ -177,7 +190,6 @@ Loop
 {
   ArrowCycle()
   sleep 11000
-  ; if there is an equipped shiny then break the loop 
   if EquippedShinyCheck()
   {
     Pause, On
