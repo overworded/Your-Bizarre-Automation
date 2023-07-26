@@ -1,0 +1,31 @@
+!⚠! WARNING !⚠! - BEFORE YOU DO ANYTHING - !⚠! WARNING !⚠!
+      1. Equip a shiny stand.
+      2. Open stand inventory (make sure equipped is at the top of the stand list).
+      3. Press the = key.
+      4. Prompt should pop up saying "Shiny detected."
+⚠ IF A PROMPT DOES NOT POP UP, IT IS NOT DETECTING SHINIES, DO NOT USE THE LOOP KEYBIND IT WILL ROKA SHINY STANDS!!! (look at issues section)
+
+Oh also, I am not responsible for losses/damages, I am not sorry :3
+
+HEADS UP:
+   •   If a prompt appears, or if the script/hotkeys stop working, press the . key, this unpauses the script.
+   •   TAB is your panic button, do not hesitate to smack it.
+
+Hotkeys:
+      [-] ➔ Get max worthy.
+      [=] ➔ Check for equipped shiny.
+      [.] ➔ Unpause.
+      [Insert] ➔ Stand cycle.
+      [Home] ➔ Rib cycle.
+      [Delete] ➔ Roka cycle.
+      [Page Up] ➔ Arrow loop.
+      [Page Down] ➔ Rib loop.
+      [Tab] ➔ Reload (the panic button), also used to stop loops
+
+Issues:
+   •   Image detection not working (shinies and stuff), look at the image folder and do your best to recreat them, IMAGE NAMES ARE CASE SENSITIVE.
+   •   Item/Image detection not working but item in hotbar, make sure your images have the top of them cut off (where the slot number would be)
+
+Credits: (not saying names, yba admins suck. you should know who you are..)
+   •   Shark Girl - inspiration/original
+   •   MEEE.. obviously..
