@@ -7,6 +7,7 @@
 ## 🛠 Setup 🛠
 1. Downlad AHK (Auto HotKey) from [here](https://www.autohotkey.com/).
 2. Download the macro folder, or the entire repository if you'd like.
-3. Read IMPORTANT.txt.
-4. Launch Main.ahk.
-5. Enjoy your shiny stands!
+3. Make sure your screen resoltion is 1920x1080.
+4. Read IMPORTANT.txt.
+5. Launch Main.ahk.
+6. Enjoy your shiny stands!
