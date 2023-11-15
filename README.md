@@ -13,4 +13,4 @@
 6. Update your ping delay depending on your ping in the game, if it is unstable then a private server is recommended.
 7. Enjoy your shiny stands!
 
-> fun fact, I'm pretty sure this just got me banned from the game as of 11/14/2023 because they consider it an exploit when it has absolutely 0 code injection into the Roblox client.
+> Fun fact, I'm pretty sure this just got me banned from the game as of 11/14/2023 because they consider it an exploit, BUT it has absolutely 0 code injection into the Roblox client and is not :D
